@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.bilguun.khutuch.video">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:id="@+id/textView2"
+        android:textColor="#0b0000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Чиний зэвсэг бол мэдрэмж"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textColor="#0b0000" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Чи &quot;бурхан ухаантай&quot; уран гартай хүн юм. Мөн шинэ мэдлэгийг эзэмшин орчин тойрондоо дасан зохицох чадвар сайн. Үүнийгээ ашиглан нарийн чимхлүүр ажил шаардсан мэргэжил сонговол алзахгүй."
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="#0b0000" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="22dp"
+        android:text="Тохирох мэргэжил: Төрөл бүрийн инженер, нисгэгч, технологич, уран дархан гэх мэт"
+        android:textColor="#0b0000" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Мэргэжлүүдийн талаарх бичлэг үзэе :)"
+        android:background="#ff9a35"
+        android:textColor="#ffffff"
+        android:id="@+id/video" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Бусадтай холбогдоё :)"
+        android:background="#ff9a35"
+        android:textColor="#ffffff"
+        android:id="@+id/publicchat" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#ff9a35"
+        android:text="Мэргэжилтэнтэй холбогдоё :)"
+        android:textColor="#ffffff"
+        android:id="@+id/contactprofessional" />
+</LinearLayout>
+</ScrollView>

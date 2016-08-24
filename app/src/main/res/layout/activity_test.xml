@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bilguun.khutuch.Test">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="НАДАД ЯМАР МЭРГЭЖИЛ ТОХИРОХ ВЭ?"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#ff9a35" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Судалгааг хэр үнэн зөв бөглөснөөр үр дүн зөв/буруу гарахыг анхаарна уу."
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#ff9a35" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="30dp"
+        android:text="Эвдэрсэн зүйл, эдлэл хэрэглэлээ бие даан засах нь олон"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button1"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button2"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button3"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:text="Өөрийн санаа бодлыг ямар нэгэн зүйлээр илэрхийлэх юмсан гэж бодох нь олонтаа"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button4"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button5"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button6"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Өрөөгөө чимэглэх, тавилга байрлуулахдаа сайн"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button10"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button11"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button12"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Гарын уртай гэж хэлэгддэг"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button13"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button14"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button15"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Мэдрэмжтэй хүн юмаа гэж таваас олон удаа хэлэгдэж байсан"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button16"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button17"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button18"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Төлөвлөж байгаагүй зүйл тохиолдвол сандарч тэвдэлгүй арга хэмжээ авч чаддаг"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button19"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button20"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button21"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Шинэ бүтээгдэхүүн, шинэ нээлт гэсэн үгнүүд хол хөндийн сонсогддог"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button22"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button23"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button24"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:text="Янз бүрийн зүйл ургуулан бодох дуртай"
+        android:textColor="#0b0000" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ЯГ ТИЙМ"
+            android:id="@+id/button25"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="ТИЙМ БАЙХАА"
+            android:id="@+id/button26"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ҮГҮЙ"
+            android:id="@+id/button27"
+            android:background="#ff9a35"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/submitButton"
+        android:text="ЯВУУЛАХ"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff9a35"
+        android:textColor="#ffffff" />
+</LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

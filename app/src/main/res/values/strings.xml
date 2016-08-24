@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Khutuch</string>
+    <string name="title_activity_menu">menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="option_prompt">Songoltoo hiine uu...</string>
+    <string name="khutuchdescription">МОНГОЛ СУРАГЧИД, ОЮУТАН ЗАЛУУСЫГ БОДИТ МЭДЭЭЛЭЛ ДЭЭР СУУРИЛАН ӨӨРИЙН ДУРТАЙ, ӨӨРТ ТОХИРСОН МЭРГЭЖЛЭЭ СОНГОХОД НЬ МЭДЭЭЛЛИЙН БААЗ ҮҮСГЭХ, МЭРГЭЖИЛТЭН ОЮУТАН ХОЁРЫН ХООРОНД ГҮҮР БОЛОХ.</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string-array name="option_arrays">
+        <item>Mash sonirholtoi</item>
+        <item>Sonirholtoi</item>
+        <item>Baga zereg</item>
+        <item>Sonirholgui</item>
+        <item>Hamaagui</item>
+    </string-array>
+</resources>
